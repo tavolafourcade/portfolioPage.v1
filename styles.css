@@ -25,9 +25,9 @@ header {
   margin: auto;
 }
 
-header .container {
+/* header .container {
   min-height: 10vh;
-}
+} */
 
 header a {
   font-family: "Yellowtail", cursive;
