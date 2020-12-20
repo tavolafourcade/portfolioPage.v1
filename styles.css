@@ -16,25 +16,20 @@ header {
   overflow: hidden;
   background-color: #ff9d72;
   color: #654062;
-  min-height: 10vh;
   margin: auto;
 }
 
 .container {
   width: 80%;
-  margin: auto;
+  margin: 0 auto;
 }
-
-/* header .container {
-  min-height: 10vh;
-} */
 
 header a {
   font-family: "Yellowtail", cursive;
   cursor: pointer;
   text-decoration: none;
   color: #654062;
-  margin: auto 1rem;
+  margin: 1rem;
   font-size: 1.3rem;
 }
 
@@ -78,4 +73,20 @@ ul {
 li {
   display: block;
   padding: 1em;
+}
+
+/*Main Section*/
+
+.hero-section {
+  padding-top: 3rem;
+}
+
+#hand {
+  margin-left: 0.5rem;
+  width: 15%;
+  height: auto;
+}
+
+.hero-section p {
+  line-height: 2rem;
 }
