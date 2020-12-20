@@ -17,6 +17,7 @@ header {
   background-color: #ff9d72;
   color: #654062;
   min-height: 10vh;
+  margin: auto;
 }
 
 .container {
@@ -33,7 +34,7 @@ header a {
   cursor: pointer;
   text-decoration: none;
   color: #654062;
-  margin: 1rem;
+  margin: auto 1rem;
   font-size: 1.3rem;
 }
 
@@ -77,8 +78,4 @@ ul {
 li {
   display: block;
   padding: 1em;
-}
-
-main .container {
-  padding-top: 2em;
 }
