@@ -1,0 +1,84 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-color: #ff9d72;
+  color: #654062;
+  min-height: 10vh;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+header .container {
+  min-height: 10vh;
+}
+
+header a {
+  font-family: "Yellowtail", cursive;
+  cursor: pointer;
+  text-decoration: none;
+  color: #654062;
+  margin: 1rem;
+  font-size: 1.3rem;
+}
+
+.open {
+  cursor: pointer;
+  margin: 1rem;
+}
+
+#nav {
+  visibility: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  background: #ffd66b;
+  width: 66%;
+  transition: all 0.3s;
+  opacity: 0;
+}
+
+.open-nav {
+  visibility: unset !important;
+  opacity: 1 !important;
+  transform: translateX(0%);
+}
+
+.exit {
+  width: 2em;
+  float: right;
+  margin: 1em;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 4em;
+  margin-left: 1em;
+}
+
+li {
+  display: block;
+  padding: 1em;
+}
+
+main .container {
+  padding-top: 2em;
+}
