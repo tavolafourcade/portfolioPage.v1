@@ -17,6 +17,7 @@ header {
   background-color: #ff9d72;
   color: #654062;
   margin: auto;
+  padding: 0 1rem;
 }
 
 .container {
@@ -91,9 +92,17 @@ li:hover {
   padding-top: 3rem;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
 #hand {
   margin-left: 0.5rem;
-  width: 15%;
+  width: 2rem;
   height: auto;
 }
 
