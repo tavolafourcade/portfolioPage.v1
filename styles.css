@@ -25,12 +25,15 @@ header {
 }
 
 header a {
-  font-family: "Yellowtail", cursive;
   cursor: pointer;
   text-decoration: none;
   color: #654062;
   margin: 1rem;
   font-size: 1.3rem;
+}
+
+header .logo {
+  font-family: "Yellowtail", cursive;
 }
 
 .open {
@@ -87,6 +90,9 @@ li {
   height: auto;
 }
 
+.hero-section h2 {
+  color: #ff9d72;
+}
 .hero-section p {
   line-height: 2rem;
 }
