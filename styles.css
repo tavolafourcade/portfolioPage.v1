@@ -94,6 +94,7 @@ li:hover {
 
 h1 {
   font-size: 2rem;
+  justify-content: center;
 }
 
 h2 {
@@ -111,4 +112,52 @@ h2 {
 }
 .hero-section p {
   line-height: 2rem;
+}
+
+.main-p {
+  margin-bottom: 3rem;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+article div {
+  display: flex;
+  flex-direction: column;
+}
+
+.p1 {
+  flex: 1;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.p1-1 {
+  background-color: #ff9d72;
+  padding: 1rem;
+}
+
+.p1-2 {
+  background-color: #654062;
+  padding: 1rem;
+}
+
+.p1-3 {
+  background-color: #ffba0b;
+  padding: 1rem;
 }
