@@ -6,11 +6,14 @@ body {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif !important;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
+  position: absolute;
   display: flex;
   justify-content: space-between;
   overflow: hidden;
@@ -20,10 +23,10 @@ header {
   padding: 0 1rem;
 }
 
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
+/* .container {
+  width: 80% !important;
+  margin: 0 auto !important;
+} */
 
 header a {
   cursor: pointer;
@@ -34,7 +37,7 @@ header a {
 }
 
 header .logo {
-  font-family: "Yellowtail", cursive;
+  font-family: "Yellowtail", cursive !important;
 }
 
 .open {
@@ -88,6 +91,22 @@ li:hover {
 }
 
 /*Main Section*/
+
+main {
+  flex-direction: row;
+  flex: auto;
+  margin-top: 80px;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
 
 .hero-section {
   padding-top: 3rem;

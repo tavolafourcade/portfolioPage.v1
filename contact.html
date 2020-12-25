@@ -5,231 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Yellowtail&display=swap" rel="stylesheet">
-  <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-  
-    body {
-      font-family: "Roboto", sans-serif;
-      height: 100vh;
-    }
-  
-    header {
-      display: flex;
-      justify-content: space-between;
-      overflow: hidden;
-      background-color: #ff9d72;
-      color: #654062;
-      margin: auto;
-      padding: 0 1rem;
-    }
-  
-    .container {
-      width: 80%;
-      margin: 0 auto;
-    }
-  
-    header a {
-      cursor: pointer;
-      text-decoration: none;
-      color: #654062;
-      margin: 1rem;
-      font-size: 1.3rem;
-    }
-  
-    header .logo {
-      font-family: "Yellowtail", cursive;
-    }
-  
-    .open {
-      cursor: pointer;
-      margin: 1rem;
-    }
-  
-    #nav {
-      visibility: hidden;
-      position: fixed;
-      top: 0;
-      right: 0;
-      height: 100vh;
-      background: #ffd66b;
-      width: 66%;
-      transition: all 0.3s;
-      opacity: 0;
-    }
-  
-    .open-nav {
-      visibility: unset !important;
-      opacity: 1 !important;
-      transform: translateX(0%);
-    }
-  
-    .exit {
-      width: 2em;
-      float: right;
-      margin: 1em;
-      cursor: pointer;
-    }
-  
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin-top: 4em;
-    }
-  
-    li {
-      display: block;
-      padding: 1em;
-      cursor: pointer;
-    }
-  
-    .active {
-      background-color: #ffd66b;
-    }
-  
-    li:hover {
-      background-color: #ffba0b;
-    }
-  
-    /*Main Section*/
-  
-    .hero-section {
-      padding-top: 3rem;
-    }
-  
-    h1 {
-      font-size: 2rem;
-      justify-content: center;
-    }
-  
-    h2 {
-      font-size: 1.5rem;
-    }
-  
-    #hand {
-      margin-left: 0.5rem;
-      width: 2rem;
-      height: auto;
-    }
-  
-    .hero-section h2 {
-      color: #ff9d72;
-    }
-    .hero-section p {
-      line-height: 2rem;
-    }
-  
-    .main-p {
-      margin-bottom: 3rem;
-    }
-  
-    .main-container {
-      display: flex;
-      flex-wrap: wrap;
-  
-      justify-content: center;
-    }
-  
-    img {
-      width: 100%;
-      height: auto;
-    }
-  
-    .p1 {
-      width: 100%;
-      height: auto;
-      margin: 2rem;
-    }
-  
-    .p1-1 {
-      background-color: #ff9d72;
-      padding: 1rem;
-    }
-  
-    .p1-2 {
-      background-color: #654062;
-      padding: 1rem;
-    }
-  
-    .p1-3 {
-      background-color: #ffba0b;
-      padding: 1rem;
-    }
-  
-    .p1-4 {
-      background-color: #0baeff;
-      padding: 1rem;
-    }
-  
-    /* Footer */
-  
-    footer {
-      display: flex;
-      justify-content: center;
-      padding: 2rem;
-    }
-  
-    @media (min-width: 768px) {
-      .p1 {
-        width: 33%;
-        height: auto;
-        margin: 2rem;
-      }
-    }
-  
-    @media (min-width: 1024px) {
-      header {
-        height: 80px;
-        justify-content: space-around;
-      }
-  
-      .logo {
-        margin: auto 2rem;
-      }
-  
-      #nav {
-        visibility: unset;
-        position: relative;
-        display: flex;
-        background: none;
-        justify-content: space-around;
-  
-        line-height: 80px;
-        opacity: 1;
-      }
-  
-      .open {
-        visibility: hidden;
-      }
-  
-      .exit {
-        visibility: hidden;
-      }
-  
-      ul {
-        list-style-type: none;
-  
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-      }
-  
-      li {
-        color: red;
-        padding: 0 2rem;
-      }
-  
-      li:hover {
-        background-color: #ffd66b;
-      }
-    }
-  
-  </style>
+  <script src="behavior.js"></script>
+  <link rel="stylesheet" href="styles.css">
   <title>Octavio Lafourcade</title>
 </head>
 <body>
@@ -247,7 +24,7 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="tweets.html">About me</a></li>
-        <li><a href="work.html">My Work</a></li>
+        <li><a href="work.html">MyWork</a></li>
         <li class="active"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
@@ -276,7 +53,25 @@
     </article>
 
     <aside>
-      <div id="disqus_thread"><iframe id="dsq-app787" name="dsq-app787" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="https://disqus.com/embed/comments/?base=default&amp;f=uruguayan-motorcycle-racing&amp;t_u=http%3A%2F%2F54.147.173.229%2F&amp;t_d=Uruguayan%20Motorcycle%20Racing&amp;t_t=Uruguayan%20Motorcycle%20Racing&amp;s_o=default#version=46aa6ce1907927200257678d09dec282" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 495px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+      <div id="disqus_thread"></div>
+      <script>
+          /**
+          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+          /*
+          var disqus_config = function () {
+          this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+          this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          };
+          */
+          (function() { // DON'T EDIT BELOW THIS LINE
+          var d = document, s = d.createElement('script');
+          s.src = 'https://hello-world-18.disqus.com/embed.js';
+          s.setAttribute('data-timestamp', +new Date());
+          (d.head || d.body).appendChild(s);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>  
     </aside>
   </main>
   <footer>
@@ -296,6 +91,6 @@
     (d.head || d.body).appendChild(s);
     })();
   </script>
-  <script src="index.js"></script>
+ 
 </body>
 </html>
